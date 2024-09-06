@@ -104,9 +104,9 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > The value of the Drovers variable is the output of the hireDrovers function. In my case im returning the value for the numberNeeded variable.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > "drovers" is the name of what the loop is iterating through, "drover" is the variable that its setting the different elements to on each iteration. 
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
 4. Also in the **journey** module, there is the following code:
@@ -116,11 +116,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > You're creating a for loop. The first section, let forestNumber = 0, is declaring the variable you're going to be iterating. the 2nd section, forestNumber < areas.forests, is setting the end condition of the loop, when you want the loop to stop running, and the 3rd section, forestNumber++, is setting what you want your variable to increment by, in this case by 1 with each iteration. Inside of the curly brackets you're setting what you want to happen with each iteration. Pushing the string "forest" into the journey array.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > it is initializing an object with two properties, cattleTypes, and drovers. Each property has a value of an array containing more objects. The cattleTypes array has 2 properties, the drovers array has 4 properties.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > herdSize is the parameter that the function expects to receive when its invoked. It gets its value from whatever argument we pass in when invoking it. 
 
 
 ## Final Step
