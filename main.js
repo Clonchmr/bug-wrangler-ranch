@@ -7,7 +7,7 @@ const cattleToDrive = 50
 const drovers = hireDrovers(cattleToDrive)
 const cattle = roundup(cattleToDrive)
 const journey = journeyMaker()
-const data = database.drovers;
+
 
 console.log(`
 ************************************************
@@ -25,12 +25,12 @@ console.log(`
                                ||w--||     \\|/
 `)
 
-console.log(`You will be accompanying ${drovers} drovers as they drive ${cattleToDrive} cattle to Old Red's Ranch for grazing`)
+console.log(`You will be accompanying ${drovers.length} drovers as they drive ${cattleToDrive} cattle to Old Red's Ranch for grazing`)
 console.log(`\nThe herd is made of up the following cattle (only their breed is shown):`)
 console.log(`${cattle}\n`)
 
 console.log("Here is the team of drovers you will be joining")
-for (const drover of data) {
+for (const drover of drovers) {
     console.log(`\t* ${drover.first_name} ${drover.last_name}`)
 }
 

@@ -9,7 +9,7 @@ const hireDrovers = (herdSize) => {
         const randomHerderId = Math.floor(Math.random() * allDrovers.length)
         droverArray.push(allDrovers[randomHerderId])
     }
-return numberNeeded
+
 return droverArray
 }
 
